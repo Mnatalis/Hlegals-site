@@ -1,0 +1,92 @@
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6, 
+li,
+ul {
+  padding: 0px;
+  margin: 0px;
+}
+:root {
+  --mobile: 375px;
+  --desktop: 1200px;
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  align-items: center;
+}
+@media screen and (min-width: var(--mobile)) {
+  .container {
+    width: 335px;
+  }
+}
+@media screen and (min-width: var(--desktop)) {
+  .container {
+    width: 1320px;
+  }
+}
+
+
+.bcg {
+  background: url("../images/shade.png") repeat-x center bottom,
+    url("../images/symbol.svg") no-repeat center bottom,
+    url("../images/pattern.svg") no-repeat center bottom,
+    linear-gradient(42.01deg, #323264 14.33%, #323264 51.39%, #7a425e 87.53%);
+}
+
+.header-list{
+    display: flex;
+    padding-top: 50px;
+}
+
+.contacts{
+    display: flex;
+    color: white;
+    margin-left: 601px;
+    
+}
+.contacts-item{
+    margin-right: 11px;
+}
+
+.contacts-item1{
+    margin-right: 21px;
+}
+.contacts-item2{
+    margin-right: 51px;
+}
+
+.navigation{
+    display: flex;
+    color: white;
+    gap: 17px;
+    margin-left: 761px;
+}
+.hero{
+    padding-bottom: 352px;
+padding-top: 247px;
+}
+.hero-title{
+    color: white;
+text-align: center;
+
+}
