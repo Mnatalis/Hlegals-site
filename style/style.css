@@ -213,9 +213,9 @@ position: relative;
 
 .services-caption{
     text-transform: uppercase;
-    color: white;
     font-size: 14px;
     line-height: 16px;
+    color: rgba(179, 179, 186, 1);
 }
 
 .services-title1 {
@@ -355,16 +355,64 @@ linear-gradient(0deg, #000000, #000000);
         margin: 76px 20px 20px 20px;
     }
 
-
-
 /* __________________CLIENTS___________________ */
 
+.clients-title{
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 16.5px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    color: rgba(50, 50, 100, 1);
+    text-align: center;
+}
 
 
+.clients-parent {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    margin-bottom: 40px;
+   
+    }
+    
+    .clients-item1 { grid-area: 1 / 1 / 2 / 2; }
+    .clients-item2 { grid-area: 1 / 2 / 2 / 3; }
+    .clients-item3 { grid-area: 1 / 3 / 2 / 4; }
+    .clients-item4 { grid-area: 1 / 4 / 2 / 5; }
+    .clients-item5 { grid-area: 2 / 1 / 3 / 2; }
+    .clients-item6 { grid-area: 2 / 2 / 3 / 3; }
+    .clients-item7 { grid-area: 2 / 3 / 3 / 4; }
+    .clients-item8 { grid-area: 2 / 4 / 3 / 5; }
+    .clients-item9 { grid-area: 3 / 1 / 4 / 2; }
+    .clients-item10 { grid-area: 3 / 2 / 4 / 3; }
+    .clients-item11 { grid-area: 3 / 3 / 4 / 4; }
+    .clients-item12 { grid-area: 3 / 4 / 4 / 5; }
 
 /* __________________PUBLICATIONS___________________ */
 
 
+.publications-text{
+    color: rgba(36, 163, 255, 1);
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+
+
+.publications-title{
+    font-family: "TT Norms";
+    background: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%),
+linear-gradient(0deg, #000000, #000000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 42px;
+    font-weight: bold;
+    line-height: 49px;
+}
 
 
 /* __________________FOOTER___________________ */
